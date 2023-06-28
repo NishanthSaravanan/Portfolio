@@ -1,0 +1,31 @@
+@import 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css';
+
+#navContents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: flex-end;
+   float: left;
+    
+}
+#name{
+    color: mediumblue;
+}
+
+    #context ,#contact,#skills,#project,#about {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    
+    #card:focus,
+    #card:hover ,#name:focus,#name:hover{
+      transition: transform 0.3s;
+      transform: scale(1.06);
+      
+   
+     
+    }
+
+  /*box-shadow: 2px 7px 19px 5px rgba(213,58,217,0.82);
+-webkit-box-shadow: 2px 7px 19px 5px rgba(213,58,217,0.82);
+-moz-box-shadow: 2px 7px 19px 5px rgba(213,58,217,0.82);*/
