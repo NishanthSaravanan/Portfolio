@@ -179,7 +179,7 @@ Portfolio is a simple website with carries out all of my personal details in  <b
             </li>
             <br/>
             <li className='list-inside text-xl list-none'>
-              <Link to='#'><span className='text-2xl'><BsGit/> </span>https://github.com/NishanthSaravanan/Portfolio</Link>
+              <Link to='https://github.com/NishanthSaravanan/Portfolio'><span className='text-2xl'><BsGit/> </span>https://github.com/NishanthSaravanan/Portfolio</Link>
             
             </li>
             <br/>
